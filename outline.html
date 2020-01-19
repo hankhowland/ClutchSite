@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CLUTCHNESS?</title>
+  <link href="styles.css" rel="stylesheet"/>
+  <script src="app.js"></script>
+</head>
+<body>
+  <h3>Want to know who's more clutch? <br>
+    1) Search for the players you want to compare <br>
+    2) Click which definition of clutch you would like to see
+  </h3>
+  <div id="data-section">
+  <button onclick=reactToClick("5") class="button" type="button" id="5">Last 5 Mins</button> 
+  <!-- need to use js and css to make the buttons stay pressed -->
+  <button onclick=reactToClick("2") class="button" type="button" id="2">Last 2 Mins</button>
+  <button onclick=reactToClick("30") class= "button" type="button" id="30">Last 30 Secs</button>
+  <form>
+    <input id="playerName" type="text">
+    <button onclick=addPlayer() class="button" id="playerSubmit" type="button">Search</button>
+  </form>
+  <div id="tablediv">
+    <table id="statTable">
+      <tr>
+        <th>Player Name</th>
+        <th>GP</th>
+        <th>Min</th>
+        <th>PTS</th>
+        <th>FG%</th>
+        <th>3P%</th>
+        <th>FT%</th>
+        <th>REB</th>
+        <th>AST</th>
+        <th>TOV</th>
+        <th>STL</th>
+        <th>BLK</th>
+        <th>+/-</th>
+      </tr>
+    </table>
+  </div>
+  <div id="spacer">
+  <button onclick=clearTable1() class= "button" type="button">clear</button>
+</div>
+<div id="extend"></div>
+</body>
+</html>
