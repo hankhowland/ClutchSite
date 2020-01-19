@@ -1,0 +1,75 @@
+* {
+text-align: center !important;
+margin: auto !important;
+width: 95%%;
+}
+
+h3 {
+	background-color: #FC4445;
+	line-height: 2em;
+	letter-spacing: 2px;
+	text-transform: lowercase;	
+}
+
+#data-section {
+	background-color: #CAFAFE;
+	padding: 20px;	
+}
+
+.button {
+	background-color: #55BCC9;
+	padding: 8px 25px;
+	text-align: center;
+	font-size: 13px;
+	display: inline-block;	
+	font-weight: bold;
+	text-transform: lowercase;
+}
+
+.button:hover {
+	background-color: white;
+	margin: 5px;
+	padding: 8px 25px;
+	text-align: center;
+	font-size: 13px;
+	display: inline-block;
+	font-weight: bold;
+	text-transform: lowercase;
+}
+
+form {
+	padding: 20px;
+}
+
+#playerName {
+	background-color: #3FEEE6;
+	padding: 8px 25px;
+	border: solid #55BCC9;
+	font-size: 13px;
+	font-weight: bold;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table, th, td {
+	border: 3px solid black;
+	padding: 6px;
+}
+
+th {
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 15px;
+}
+
+#spacer {
+	padding: 20px;
+}
+
+#extend {
+	padding: 10000px;
+}
+
+
